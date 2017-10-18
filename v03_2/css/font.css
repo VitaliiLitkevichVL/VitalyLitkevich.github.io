@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'PF Din Text Condo Pro';
+	src: url(../fonts/PFDinTextCondPro-Light.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinText Pro thin';
+	src: url(../fonts/pfdintextpro-thin.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinText Pro';
+	src: url(../fonts/pfdintextpro-regular.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinDisplay Pro bold';
+	src: url(../fonts/pfdindisplaypro-bold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinDisplay Pro light';
+	src: url(../fonts/pfdintextpro-light.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinText Pro italic';
+	src: url(../fonts/pfdintextpro-italic.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PF DinText Pro lightitalic';
+	src: url(../fonts/pfdintextpro-lightitalic.ttf) format('truetype');
+	font-style: italic;
+	font-weight: normal;
+}

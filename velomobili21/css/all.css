@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	color:#333;
+	font:11px/15px Arial, Helvetica, sans-serif;
+	background:#f3f9e0;
+	min-width:1000px;
+}
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+.wrapper:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+#header{
+	height:440px;
+	background:url(../images/bg-header.png) no-repeat center bottom;
+	background-size:100% 100%;
+}
+.logo{
+	display:block;
+	overflow:hidden;
+	width:161px;
+	height:123px;
+	background:url(../images/logo.png) no-repeat;
+	overflow:hidden;
+	text-indent:-9999px;
+	margin:0 0 0 60px;
+}
+.logo a{
+	display:block;
+	height:100%
+}
+.nav-container{
+	background:url(../images/bg-nav.png) no-repeat 50% top;
+	height:79px;
+	margin:-19px 0 0 0;
+}
+#nav{
+	float:left;
+	margin:0;
+	padding:13px 0 0 0;
+}
+#nav li{
+	list-style:none;
+	display:inline-block;
+	margin:0 0 0 60px;
+}
+#nav li:first-child{
+	margin:0 0 0 85px;
+}
+#nav li a{
+	font:bold 14px/14px PlumbCondensed, Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+}
+#nav li a:hover{
+	text-decoration:none;
+}
+#main{
+	padding:0 35px;
+}
+#main:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.contacts-header{
+	font:bold 28px/28px PlumbCondensed, Arial, Helvetica, sans-serif;
+	float:right;
+	color:#fff;
+	margin:6px 80px 0 0;
+}
+.contacts-header span{
+	font-weight:lighter;
+}
+.description-list{
+	float:left;
+	width:650px;
+	overflow:hidden;
+}
+.description-list h2{
+	font: bold 29px/29px PlumbCondensed, Arial, Helvetica, sans-serif;
+	color:#252525;
+	margin:0 0 25px 0;
+}
+.description-list p{
+	margin:0 0 15px 0;
+}
+.map{
+	float:right;
+}
+.map h3{
+	text-align:center;
+	font:bold 18px/18px PlumbCondensed, Arial, Helvetica, sans-serif;
+	margin:10px 0 15px 0;
+}
+.container-main:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.container-main{
+	border-bottom:1px solid #d9ebb1;
+}
+#footer{
+	padding:20px 35px 60px;
+}
+#footer:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.contacts:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.copyright{
+	float:left;
+	font-style:normal;
+}
+.contacts-phone{
+	font:bold 21px/21px PlumbCondensed, Arial, Helvetica, sans-serif;
+	color:#252525;
+	background:url(../images/contacts-phone.png) no-repeat;
+	width:160px;
+	text-indent:28px;
+	float:left;
+	margin:0 0 0 115px;
+}
+.contacts-phone span{
+	font-weight:lighter;
+}
+.contacts-info{
+	margin:0 0 0 94px;
+}
+.contacts-info a{
+	color:#003366;
+	font-style:normal;
+}
+.contacts-info a:hover{
+	text-decoration:none;
+}

@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'NerisBlack';
+	src: url('../fonts/Neris-Black.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'NerisSemiBold';
+	src: url('../fonts/Neris-SemiBold.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'NerisSemiBoldItalic';
+	src: url('../fonts/Neris-SemiBoldItalic.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'NerisLight';
+	src: url('../fonts/Neris-Light.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'NerisThin';
+	src: url('../fonts/Neris-Thin.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansSemibold';
+	src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+

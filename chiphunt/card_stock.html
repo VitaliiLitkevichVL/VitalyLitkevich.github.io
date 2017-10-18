@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>chiphunt</title>
+	<link rel="stylesheet" href="css/jquery.fs.selecter.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fs.selecter.js"></script>
+	<script type="text/javascript" src="js/icheck.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+</head>
+<body>
+	<div id="wrapper" class="card-stock">
+		<div class="top-panel top-panel-card">
+			<div class="center">
+				<ul class="login-control">
+					<li><a class="personal-area active" href="#">личный кабинет</a></li>
+					<li><a class="exit" href="#">Выход</a></li>
+					<li><a class="reference" href="#">справка</a></li>
+				</ul>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">Поставщики </a></li>
+						<li><a href="#">Магазин компонентов </a></li>
+						<li><a href="#">Документация</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Аналоги</a></li>
+						<li><a href="#">Объявления</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<header id="header">
+			<div class="center">
+				<div class="card-head">
+					<strong class="logo"><a href="#">chiphunt поисковая система</a></strong>
+					<form action="#" class="form-search-card">
+						<fieldset>
+							<div class="row">
+								<input class="btn" type="submit" value="Найти">
+								<div class="text">
+									<input class="search search-card" type="search" placeholder="Поиск по компонентам" name="#">
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div class="center bg-center">
+				<div id="twocolumns">
+					<div id="content">
+						<div class="name-panel">
+							<h2>личный кабинет  /  управление складами</h2>
+							<h1>склад 1</h1>
+						</div>
+						<div class="info-stock">
+							<div class="heading">
+								<h3>информация о складе</h3>
+							</div>
+							<form action="#" class="form-info-stock">
+								<fieldset>
+									<div class="container">
+										<div class="bg-border state-stock">
+											<div class="checkbox-switch">
+												<input type="checkbox" checked>
+											</div>
+											<span>Работает</span>
+										</div>
+										<div class="fields-box">
+											<div class="row">
+												<label for="stock-field">Online-склад:</label>
+												<div class="text">
+													<input type="text" class="text-field" id="stock-field">
+												</div>
+											</div>
+											<div class="row">
+												<label for="account-field">Аккаунт:</label>
+												<div class="text">
+													<select>
+														<option>Gold account</option>
+														<option>Gold account-1</option>
+														<option>Gold account-2</option>
+														<option>Gold account-3</option>
+													</select>
+												</div>
+											</div>
+											<div class="row">
+												<label for="region-field">Регион:</label>
+												<div class="text">
+													<select>
+														<option>Санкт-Петербург и область</option>
+														<option>Питер</option>
+														<option>Москва</option>
+														<option>Санкт-Петербург</option>
+														<option>Киев</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="save-line">
+										<div class="save-cover">
+											<input type="submit" class="btn btn-save other-style" value="сохранить">
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						<div class="current-state">
+							<div class="heading">
+								<h3>текущее состояние (за последние 6 часов)</h3>
+							</div>
+							<div class="list-current-state">
+								<ul>
+									<li>
+										<span class="description">Среднее время ответа:</span>
+										<span class="value">0,1898</span>
+									</li>
+									<li>
+										<span class="description">Результативных запросов:</span>
+										<span class="value">59%</span>
+									</li>
+									<li>
+										<span class="description">Информация о производителе:</span>
+										<span class="value">100%</span>
+									</li>
+									<li>
+										<span class="description">Дополнительные комментарии:</span>
+										<span class="value">83%</span>
+									</li>
+									<li>
+										<span class="description"></span>
+										<span class="value"></span>
+									</li>
+								</ul>
+								<ul class="list-current-state">
+									<li>
+										<span class="description">В наличии на складе:</span>
+										<span class="value">41$</span>
+									</li>
+									<li>
+										<span class="description">Инфомация о ценах:</span>
+										<span class="value">0%</span>
+									</li>
+									<li>
+										<span class="description">Дополнительная информация:</span>
+										<span class="value">100%</span>
+									</li>
+									<li>
+										<span class="description">Запросов по скрипту:</span>
+										<span class="value">764</span>
+									</li>
+									<li>
+										<span class="description">Количество ошибок:</span>
+										<span class="value">6</span>
+									</li>
+								</ul>
+							</div>
+							<p class="small">
+								Указано процентное соотношение от общего числа переданных вашим скриптом складских строк. Чем больше и быстрее информации передает ваш скрипт, тем выше в результатах поиска будет отображаться ваша компания.
+							</p>
+						</div>
+						<div class="script-box">
+							<div class="heading">
+								<h3>Добавить скрипт</h3>
+							</div>
+							<form action="#" class="form-script" name="form-script">
+								<div class="cover-fields">
+									<div class="row address-row">
+										<label for="#">Адрес:</label>
+										<div class="text addres-script">
+											<input type="text" class="text-field addres-script-field">
+											<span>Адрес скрипта и параметр</span>
+										</div>
+										<div class="text port">
+											<input type="text" class="text-field port-field">
+											<span>Порт</span>
+										</div>
+										<div class="text ip">
+											<input type="text" class="text-field ip-field">
+											<span>IP или домен</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="request-method">
+											<label for="request-method">Метод запроса:</label>
+											<div class="text">
+												<select id="request-method">
+													<option>GET</option>
+													<option>HTTP</option>
+													<option>GET-1</option>
+													<option>HTTP-1</option>
+													<option>GET-2</option>
+													<option>HTTP-2</option>
+												</select>
+											</div>
+										</div>
+										<div class="encoding">
+											<label for="rencoding">Кодировка:</label>
+											<div class="text">
+												<select id="encoding">
+													<option>GET</option>
+													<option>HTTP</option>
+													<option>GET-1</option>
+													<option>HTTP-1</option>
+													<option>GET-2</option>
+													<option>HTTP-2</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<p class="small">
+									Укажите кодировку, в которой ваш сервер выдает данные. Актуально для русских букв. Предпочти-тельна UTF-8.
+								</p>
+								<div class="save-line">
+									<div class="save-cover">
+										<input type="submit" class="btn btn-save other-style" value="сохранить">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="script-testing">
+							<div class="heading">
+								<h3>тестирование скрипта</h3>
+							</div>
+							<form action="#" class="form-testing">
+								<div class="row">
+									<input type="submit" class="btn" value="Тестировать">
+									<label>Запрос:</label>
+									<div class="text">
+										<input type="text" class="text-field">
+									</div>
+								</div>
+							</form>
+							<ul class="results-testing">
+								<li>
+									<span class="description">Время соединения:</span>
+									<span class="value">0,001 сек</span>
+								</li>
+								<li>
+									<span class="description">Время получения данных:</span>
+									<span class="value">0,004 сек</span>
+								</li>
+								<li>
+									<span class="description">Время работы скрипта:</span>
+									<span class="value">0,005 сек</span>
+								</li>
+								<li>
+									<span class="description">Общее время работы:</span>
+									<span class="value">0,009 сек</span>
+								</li>
+							</ul>
+							<div class="results-search">
+								<div class="head">
+									<span>Результат поиска</span>
+									<a href="#">HTTP заголовки</a>
+									<a href="#">Исходный ответ</a>
+								</div>
+								<table class="table table-card table-results-search">
+									<tr class="table-header">
+										<th class="col-1">Производитель</th>
+										<th class="col-2">Наименование и комментарии</th>
+										<th class="col-3">Розн.</th>
+										<th class="col-4">М.Опт</th>
+										<th class="col-5">Опт</th>
+										<th class="col-6">Склад</th>
+									</tr>
+									<tr class="row first-row">
+										<td class="col-1">
+											<span>MAXIM Maxim</span>
+											<span>Integrated</span>
+											<span>Products</span>
+										</td>
+										<td class="col-2">
+											<span>MAX2323</span>
+											<span>Triple/Dual CDMA LNA/Mixers</span>
+											<span class="description-link">
+												<a href="#">PDF</a>
+												<a href="#">Описание</a>
+											</span>
+										</td>
+										<td class="col-3"></td>
+										<td class="col-4"></td>
+										<td class="col-5"></td>
+										<td class="col-6">
+											<span>1345 шт.</span>
+											<span>1 неделя</span>
+										</td>
+									</tr>
+									<tr class="row">
+										<td class="col-1">
+											<span>MAXIM Maxim</span>
+											<span>Integrated</span>
+											<span>Products</span>
+										</td>
+										<td class="col-2">
+											<span>MAX2323</span>
+											<span>Triple/Dual CDMA LNA/Mixers</span>
+											<span class="description-link">
+												<a href="#">PDF</a>
+												<a href="#">Описание</a>
+											</span>
+										</td>
+										<td class="col-3"></td>
+										<td class="col-4"></td>
+										<td class="col-5"></td>
+										<td class="col-6">
+											<span>1345 шт.</span>
+											<span>1 неделя</span>
+										</td>
+									</tr>
+									<tr class="row">
+										<td class="col-1">
+											<span>MAXIM Maxim</span>
+											<span>Integrated</span>
+											<span>Products</span>
+										</td>
+										<td class="col-2">
+											<span>MAX2323</span>
+											<span>Triple/Dual CDMA LNA/Mixers</span>
+											<span class="description-link">
+												<a href="#">PDF</a>
+												<a href="#">Описание</a>
+											</span>
+										</td>
+										<td class="col-3"></td>
+										<td class="col-4"></td>
+										<td class="col-5"></td>
+										<td class="col-6">
+											<span>1345 шт.</span>
+											<span>1 неделя</span>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div id="sidebar">
+						<ul class="card-menu">
+							<li>
+								<a href="#" class="name btn-drop other-style">Карточка компании</a>
+								<div class="drop">
+									<a href="#">Перечень услуг</a>
+									<a href="#">Сведения/Реквизиты</a>
+									<a href="#">Управление доступом</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">управление складами</a>
+								<div class="drop open">
+									<a href="#">Добавить склад</a>
+									<a class="active" href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">участие <br> в спецразмещении</a>
+								<div class="drop">
+									<a href="#">Общие настройки</a>
+									<a href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">Участие <br> в баннерной рекламе</a>
+								<div class="drop">
+									<a href="#">Подключение баннеров</a>
+									<a href="#">Загрузка баннеров</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">Управление счетом</a>
+								<div class="drop">
+									<a href="#">Оплата услуг</a>
+									<a href="#">Пополнение счета</a>
+									<a href="#">Расходы по счету</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">Просмотр статистики</a>
+								<div class="drop">
+									<a href="#">История запросов</a>
+									<a href="#">Временная статистика</a>
+									<a href="#">Распределение позиций</a>
+									<a href="#">Статистика весов</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">34</span>обратная связь</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">634</span>отзывы</a>
+							</li>
+							<li>
+								<a href="#" class="name other-style2">официальный поставщик</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">23</span>заявки</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="center">
+				<div class="bottom-panel other-style">
+					<em class="copyright">
+						<a href="#">&copy; 2006 — 2013 Торговая площадка Chiphunt Род деятельности</a>
+					</em>
+					<address class="address contacts">
+						<span>Адрес:</span>
+						<strong>г. Москва</strong>
+					</address>
+					<div class="phone contacts">
+						<span>Телефон:</span>
+						<strong>+7 (495) 755-7733 <br> (c 9:00 до 18:00 пн-пт)</strong>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

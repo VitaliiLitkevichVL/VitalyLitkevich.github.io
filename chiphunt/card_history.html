@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>chiphunt</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.fs.selecter.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fs.selecter.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+</head>
+<body>
+	<div id="wrapper" class="card-history">
+		<div class="top-panel top-panel-card">
+			<div class="center">
+				<ul class="login-control">
+					<li><a class="personal-area active" href="#">личный кабинет</a></li>
+					<li><a class="exit" href="#">Выход</a></li>
+					<li><a class="reference" href="#">справка</a></li>
+				</ul>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">Поставщики </a></li>
+						<li><a href="#">Магазин компонентов </a></li>
+						<li><a href="#">Документация</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Аналоги</a></li>
+						<li><a href="#">Объявления</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<header id="header">
+			<div class="center">
+				<div class="card-head">
+					<strong class="logo"><a href="#">chiphunt поисковая система</a></strong>
+					<form action="#" class="form-search-card">
+						<fieldset>
+							<div class="row">
+								<input class="btn" type="submit" value="Найти">
+								<div class="text">
+									<input class="search search-card" type="search" placeholder="Поиск по компонентам" name="#">
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div class="center bg-center">
+				<div id="twocolumns">
+					<div id="content">
+						<div class="name-panel other-style">
+							<h2>личный кабинет  /  просмотр статистики</h2>
+							<h1>история запросов</h1>
+						</div>
+						<form action="#" class="form-filter bg-border">
+							<fieldset>
+								<div class="cover-fields">
+									<div class="col">
+										<label for="time-select">За:</label>
+										<div class="select-cover">
+											<select id="time-select">
+												<option>1 час</option>
+												<option>1 день</option>
+												<option>месяц</option>
+												<option>пол года</option>
+												<option>год</option>
+											</select>
+										</div>
+									</div>
+									<div class="col">
+										<label for="stock-select">Склад:</label>
+										<div class="select-cover">
+											<select id="stock-select">
+												<option>Склад 1</option>
+												<option>Склад 2</option>
+												<option>Склад 3</option>
+												<option>Склад 4</option>
+											</select>
+										</div>
+									</div>
+									<div class="col">
+										<label for="form-select">Форма вывода:</label>
+										<div class="select-cover">
+											<select id="form-select">
+												<option>на сайте</option>
+												<option>на сайте2</option>
+												<option>на сайте3</option>
+											</select>
+										</div>
+									</div>
+									<input type="submit" class="btn other-style" value="вывести">
+								</div>
+							</fieldset>
+						</form>
+						<div class="data-block">
+							<table class="table table-card table-history">
+								<tr class="table-header">
+									<th class="col-1">№</th>
+									<th class="col-2">PART номер</th>
+									<th class="col-3">Число рез-тов</th>
+									<th class="col-4">Статус ответа</th>
+									<th class="col-5">Время</th>
+									<th class="col-6">Позиция</th>
+									<th class="col-7">IP-адрес</th>
+									<th class="col-8">Hostname</th>
+								</tr>
+								<tr class="row first-row">
+									<td class="col-1">1</td>
+									<td class="col-2">874567</td>
+									<td class="col-3">654</td>
+									<td class="col-4">654</td>
+									<td class="col-5">34</td>
+									<td class="col-6">34</td>
+									<td class="col-7">80.93.56.19</td>
+									<td class="col-8">Hostname</td>
+								</tr>
+								<tr class="row">
+									<td class="col-1">2</td>
+									<td class="col-2">87587</td>
+									<td class="col-3">765</td>
+									<td class="col-4">765</td>
+									<td class="col-5">67</td>
+									<td class="col-6">67</td>
+									<td class="col-7">80.93.56.19</td>
+									<td class="col-8">Hostname</td>
+								</tr>
+								<tr class="row">
+									<td class="col-1">3</td>
+									<td class="col-2">7646532</td>
+									<td class="col-3">56</td>
+									<td class="col-4">56</td>
+									<td class="col-5">56</td>
+									<td class="col-6">56</td>
+									<td class="col-7">80.93.56.19</td>
+									<td class="col-8">Hostname</td>
+								</tr>
+								<tr class="row">
+									<td class="col-1">4</td>
+									<td class="col-2">982</td>
+									<td class="col-3">213</td>
+									<td class="col-4">213</td>
+									<td class="col-5">7</td>
+									<td class="col-6">7</td>
+									<td class="col-7">80.93.56.19</td>
+									<td class="col-8">Hostname</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div id="sidebar">
+						<ul class="card-menu">
+							<li>
+								<a href="#" class="name btn-drop other-style">Карточка компании</a>
+								<div class="drop">
+									<a href="#">Перечень услуг</a>
+									<a href="#">Сведения/Реквизиты</a>
+									<a href="#">Управление доступом</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">управление складами</a>
+								<div class="drop">
+									<a href="#">Добавить склад</a>
+									<a href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">участие <br> в спецразмещении</a>
+								<div class="drop">
+									<a href="#">Общие настройки</a>
+									<a href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">Участие <br> в баннерной рекламе</a>
+								<div class="drop">
+									<a href="#">Подключение баннеров</a>
+									<a href="#">Загрузка баннеров</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">Управление счетом</a>
+								<div class="drop">
+									<a href="#">Оплата услуг</a>
+									<a href="#">Пополнение счета</a>
+									<a href="#">Расходы по счету</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="active name btn-drop">Просмотр статистики</a>
+								<div class="drop open">
+									<a class="active" href="#">История запросов</a>
+									<a href="#">Временная статистика</a>
+									<a href="#">Распределение позиций</a>
+									<a href="#">Статистика весов</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">34</span>обратная связь</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">634</span>отзывы</a>
+							</li>
+							<li>
+								<a href="#" class="name other-style2">официальный поставщик</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">23</span>заявки</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="center">
+				<div class="bottom-panel other-style">
+					<em class="copyright">
+						<a href="#">&copy; 2006 — 2013 Торговая площадка Chiphunt Род деятельности</a>
+					</em>
+					<address class="address contacts">
+						<span>Адрес:</span>
+						<strong>г. Москва</strong>
+					</address>
+					<div class="phone contacts">
+						<span>Телефон:</span>
+						<strong>+7 (495) 755-7733 <br> (c 9:00 до 18:00 пн-пт)</strong>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

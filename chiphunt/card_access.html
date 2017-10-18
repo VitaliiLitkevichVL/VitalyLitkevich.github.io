@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>chiphunt</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/icheck.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<div class="top-panel top-panel-card">
+			<div class="center">
+				<ul class="login-control">
+					<li><a class="personal-area active" href="#">личный кабинет</a></li>
+					<li><a class="exit" href="#">Выход</a></li>
+					<li><a class="reference" href="#">справка</a></li>
+				</ul>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">Поставщики </a></li>
+						<li><a href="#">Магазин компонентов </a></li>
+						<li><a href="#">Документация</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Аналоги</a></li>
+						<li><a href="#">Объявления</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<header id="header">
+			<div class="center">
+				<div class="card-head">
+					<strong class="logo"><a href="#">chiphunt поисковая система</a></strong>
+					<form action="#" class="form-search-card">
+						<fieldset>
+							<div class="row">
+								<input class="btn" type="submit" value="Найти">
+								<div class="text">
+									<input class="search search-card" type="search" placeholder="Поиск по компонентам" name="#">
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div class="center bg-center">
+				<div id="twocolumns">
+					<div id="content">
+						<div class="name-panel">
+							<h2>личный кабинет  /  карточка компании</h2>
+							<h1>управление доступом</h1>
+						</div>
+						<div class="data-cover access-administrator">
+							<form action="#" class="form-access-administrator">
+								<fieldset>
+									<div class="heading">
+										<h3>управление доступом администратора</h3>
+									</div>
+									<div class="cover-fields">
+										<div class="row">
+											<label for="email-administrator-field">E-mail администратора:</label>
+											<div class="text">
+												<input type="email" class="text-field" id="email-administrator-field">
+											</div>
+										</div>
+										<div class="row">
+											<label for="old-password-administratorl-field">Старый пароль администратора:</label>
+											<div class="text">
+												<input type="password" class="text-field" id="old-password-administratorl-field">
+											</div>
+										</div>
+										<div class="row">
+											<label for="new-password-administratorl-field">Новый пароль:</label>
+											<div class="text">
+												<input type="password" class="text-field" id="new-password-administratorl-field">
+											</div>
+										</div>
+										<div class="row">
+											<label for="repeated-password-administratorl-field">Подтвердить новый пароль:</label>
+											<div class="text">
+												<input type="password" class="text-field" id="repeated-password-administratorl-field">
+											</div>
+										</div>
+									</div>
+									<div class="save-line">
+										<div class="save-cover">
+											<input type="submit" class="btn btn-save other-style" value="сохранить">
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						<div class="data-cover access-manager">
+							<form action="#" class="form-access-manager">
+								<fieldset>
+									<div class="heading">
+										<h3>управление доступом менеджеров</h3>
+									</div>
+									<div class="cover-fields">
+										<div class="row">
+											<label for="email-manager-field">E-mail менеджера:</label>
+											<div class="text">
+												<input type="email" class="text-field" id="email-manager-field">
+											</div>
+										</div>
+										<div class="row">
+											<label for="old-password-manager-field">Имя менеджера:</label>
+											<div class="text">
+												<input type="text" class="text-field" id="old-password-manager-field">
+											</div>
+										</div>
+										<div class="row">
+											<label for="new-password-manager-field">Пароль менеджера:</label>
+											<div class="text">
+												<input type="password" class="text-field" id="new-password-manager-field">
+											</div>
+										</div>
+									</div>
+									<div class="save-line">
+										<div class="save-cover">
+											<input type="submit" class="btn btn-save other-style" value="сохранить">
+										</div>
+									</div>
+									<a class="add-link" href="#">
+										<span>добавить менеджера</span>
+									</a>
+								</fieldset>
+							</form>
+						</div>
+						<div class="data-cover access-messages">
+							<form action="#" class="form-access-manager">
+								<fieldset>
+									<div class="heading">
+										<h3>получать сообщения</h3>
+									</div>
+									<div class="container">
+										<div class="column">
+											<span class="head">На e-mail администратора</span>
+											<ul class="checkbox-messages">
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-01" checked>
+													<label for="checkbox-01">Заявки</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-02">
+													<label for="checkbox-02">Состояния счета</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-03">
+													<label for="checkbox-03">Отзывы</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-04">
+													<label for="checkbox-04">Ticket сообщения</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-05">
+													<label for="checkbox-05">Служебные сообщения</label>
+												</li>
+											</ul>
+											<div class="save-line">
+												<div class="save-cover other-style">
+													<input type="submit" class="btn btn-save other-style" value="сохранить">
+												</div>
+											</div>
+										</div>
+										<div class="column">
+											<span class="head">На e-mail менеджеров</span>
+											<ul class="checkbox-messages">
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-06" checked>
+													<label for="checkbox-06">Заявки</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-07">
+													<label for="checkbox-07">Состояния счета</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-08">
+													<label for="checkbox-08">Отзывы</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-09">
+													<label for="checkbox-09">Ticket сообщения</label>
+												</li>
+												<li>
+													<input class="checkbox" type="checkbox" id="checkbox-10">
+													<label for="checkbox-10">Служебные сообщения</label>
+												</li>
+											</ul>
+											<div class="save-line">
+												<div class="save-cover other-style">
+													<input type="submit" class="btn btn-save other-style" value="сохранить">
+												</div>
+											</div>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div id="sidebar">
+						<ul class="card-menu">
+							<li>
+								<a href="#" class="name btn-drop other-style">Карточка компании</a>
+								<div class="drop open">
+									<a href="#">Перечень услуг</a>
+									<a href="#">Сведения/Реквизиты</a>
+									<a class="active" href="#">Управление доступом</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">управление складами</a>
+								<div class="drop">
+									<a href="#">Добавить склад</a>
+									<a href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">участие <br> в спецразмещении</a>
+								<div class="drop">
+									<a href="#">Общие настройки</a>
+									<a href="#">Склад 1</a>
+									<a href="#">Склад 2</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop other-style">Участие <br> в баннерной рекламе</a>
+								<div class="drop">
+									<a href="#">Подключение баннеров</a>
+									<a href="#">Загрузка баннеров</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">Управление счетом</a>
+								<div class="drop">
+									<a href="#">Оплата услуг</a>
+									<a href="#">Пополнение счета</a>
+									<a href="#">Расходы по счету</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name btn-drop">Просмотр статистики</a>
+								<div class="drop">
+									<a href="#">История запросов</a>
+									<a href="#">Временная статистика</a>
+									<a href="#">Распределение позиций</a>
+									<a href="#">Статистика весов</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">34</span>обратная связь</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">634</span>отзывы</a>
+							</li>
+							<li>
+								<a href="#" class="name other-style2">официальный поставщик</a>
+							</li>
+							<li>
+								<a href="#" class="name"><span class="quantity">23</span>заявки</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="center">
+				<div class="bottom-panel other-style">
+					<em class="copyright">
+						<a href="#">&copy; 2006 — 2013 Торговая площадка Chiphunt Род деятельности</a>
+					</em>
+					<address class="address contacts">
+						<span>Адрес:</span>
+						<strong>г. Москва</strong>
+					</address>
+					<div class="phone contacts">
+						<span>Телефон:</span>
+						<strong>+7 (495) 755-7733 <br> (c 9:00 до 18:00 пн-пт)</strong>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

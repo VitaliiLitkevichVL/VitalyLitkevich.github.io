@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>kallista</title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/slimmenu.min.css">
+	<link rel="stylesheet" href="css/jquery.fs.selecter.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.ui.datepicker-ru.js"></script>
+	<script src="js/jquery.slimmenu.min.js"></script>
+	<script src="js/jquery.fs.selecter.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/html5.js"></script>
+	<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+</head>
+<body class="cottage-page">
+	<div id="wrapper">
+		<header id="header">
+			<div class="container">
+				<div class="header-top">
+					<div class="logo-box">
+						<strong class="logo"><a href="#">kallista.ru отдых в финляндии</a></strong>
+						<div class="top-nav">
+							<ul>
+								<li><a href="#">Коттеджи</a></li>
+								<li><a href="#">Мини-отели</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Апартаменты</a></li>
+								<li><a class="active" href="#">Коттеджные поселки</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="personal-area-box">
+						<form action="#" class="personal-area">
+							<fieldset>
+								<strong class="title">Личный кабинет</strong>
+								<div class="row">
+									<input type="text" placeholder="Имя пользователя">
+									<input type="password" placeholder="Пароль">
+									<div class="btn-cover">
+										<input class="btn" type="submit" value="Войти">
+									</div>
+								</div>
+								<ul class="personal-area-links">
+									<li><a href="#">Регистрация</a></li>
+									<li><a href="#">Забыли пароль?</a></li>
+								</ul>
+							</fieldset>
+						</form>
+						<ul class="lng-list">
+							<li><a href="#"><img src="img/flag-01.png" alt="ru"></a></li>
+							<li><a href="#"><img src="img/flag-02.png" alt="fin"></a></li>
+							<li><a href="#"><img src="img/flag-03.png" alt="eng"></a></li>
+						</ul>
+					</div>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li><a class="active" href="#">главная</a></li>
+						<li><a href="#">каталог</a></li>
+						<li><a href="#">новоти</a></li>
+						<li><a href="#">информация</a></li>
+						<li><a href="#">контакты</a></li>
+						<li><a href="#">услуги</a></li>
+						<li><a href="#">фотографии</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<div class="container">
+				<div id="twocolumns">
+					<div class="content-center">
+						<div class="content-center-frame">
+							<ul class="cottage-nav">
+								<li><a href="#">К избранному</a></li>
+								<li><a href="#">К результату поиска</a></li>
+							</ul>
+							<div class="item-cottage">
+								<div class="gallery">
+									<div class="gallery-list">
+										<ul>
+											<li class="visual"><img src="img/img-12.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-13.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-14.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-15.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-16.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-17.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-18.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-19.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+											<li class="visual"><img src="img/img-20.jpg" alt=""></li>
+										</ul>
+									</div>
+									<ul class="gallery-visual">
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h2 class="heading">календарь и цены</h2>
+								</div>
+								<div class="info-cost">
+									<div class="datepicker-box">
+										<div id="datepicker"></div>
+										<ul class="datepicker-designation">
+											<li>
+												<div class="icon bg1"></div>
+												<span>- по запросу</span>
+											</li>
+											<li>
+												<div class="icon bg2"></div>
+												<span>- свободно</span>
+											</li>
+											<li>
+												<div class="icon bg3"></div>
+												<span>- занято</span>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-block">
+										<div class="cost-had">
+											<span>цена</span> до 4 чел.
+										</div>
+										<div class="cost-body">
+											<table class="cost-table">
+												<tr>
+													<th>&euro; сут.</th>
+													<th>&euro; вых.</th>
+													<th>&euro; нуд.</th>
+													<th>&euro; мус.</th>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>65+</td>
+													<td>130+</td>
+													<td>260+</td>
+													<td></td>
+												</tr>
+											</table>
+											<table class="time-table">
+												<tr>
+													<td><span>??:??</span><span>??:??</span></td>
+													<td><span>??:??</span><span>??:??</span></td>
+													<td><span>сб. 16:00</span><span>сб. 12:00</span></td>
+													<td><span>??:??</span><span>??:??</span></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="cost-block special-cost">
+										<div class="cost-had">
+											Особые цены
+										</div>
+										<div class="cost-body">
+											<ul class="special-cost-list">
+												<li><a href="#">Новогодние заезды</a></li>
+												<li><a href="#">Майские праздники</a></li>
+												<li><a href="#">Лето</a></li>
+												<li><a href="#">Доп. место 50 е/неделя, 10 е/сутки</a></li>
+												<li><a href="#">На одну семью – скидки в зависимости от сезона</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h2 class="heading">События календаря</h2>
+								</div>
+								<dl class="events-calendar">
+									<dt>11.01.2012 - 20.01.2012 </dt>
+									<dd>Период больших скидок в магазинах</dd>
+									<dt>01.06.2012 - 30.06.2012 </dt>
+									<dd>Спроси скидку</dd>
+									<dt>04.01.2013 - 11.01.2013</dt>
+									<dd>Вторая неделя Новогоднего заезда</dd>
+									<dt>27.12.2013 - 03.01.2014</dt>
+									<dd>Первая неделя Новогоднего заезда</dd>
+								</dl>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h2 class="heading form-title">Запрос владельцу коттеджа</h2>
+								</div>
+								<form action="#" class="form-cottage">
+									<fieldset>
+										<div class="data-block">
+											<div class="holder-columns margin0">
+												<div class="form-block column">
+													<div class="heading-holder">
+														<h3 class="heading">Свободен ли коттедж N 10438?</h3>
+													</div>
+													<div class="cover-fields">
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta1"><span class="necessarily">Дата заезда:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta1" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Дата выезда:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin52">
+															<div class="label-cover">
+																<label for=""><span class="necessarily">Количество взрослых:</span></label>
+															</div>
+															<div class="text">
+																<select>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																</select>
+															</div>
+														</div>
+														<div class="row margin13">
+															<div class="label-cover">
+																<span class="label">Количество детей:</span>
+															</div>
+															<div class="text">
+																<select>
+																	<option value="1">...</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																</select>
+															</div>
+														</div>
+														<div class="row margin20">
+															<div class="label-cover">
+																<label for="">Количество домашних питомцев</label>
+															</div>
+															<div class="text">
+																<select>
+																	<option value="1">...</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-block column other-style">
+													<div class="heading-holder">
+														<h3 class="heading">Данные клиента</h3>
+													</div>
+													<div class="cover-fields">
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta1">Фамилия:</label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta1" id="">
+																<span class="promt">Заполняется на английском</span>
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Имя:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin16">
+															<div class="label-cover">
+																<label for="deta2">Организация:</label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin16">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Электронная почта:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Телефон:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin16">
+															<div class="label-cover">
+																<label for="deta2">Город:</label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="capture-box">
+											<span class="necessarily right">Введите код с картинки:</span>
+											<div class="visual visual-capture">
+												<img src="img/capture.png" alt="capture">
+											</div>
+											<input type="text">
+										</div>
+										<div class="btn-cover other-style">
+											<input class="btn" type="submit" value="Отправить">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h2 class="heading form-title">Забронировать коттедж</h2>
+								</div>
+								<form action="#" class="form-cottage">
+									<fieldset>
+										<div class="data-block other-style">
+											<div class="holder-columns">
+												<div class="form-block column">
+													<div class="heading-holder">
+														<h3 class="heading">Период</h3>
+													</div>
+													<div class="cover-fields">
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta1"><span class="necessarily">Дата заезда:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta1" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Дата выезда:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin52">
+															<div class="label-cover">
+																<label for=""><span class="necessarily">Количество взрослых:</span></label>
+															</div>
+															<div class="text">
+																<select>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																</select>
+															</div>
+														</div>
+														<div class="row margin13">
+															<div class="label-cover">
+																<span class="label">Количество детей:</span>
+															</div>
+															<div class="text">
+																<select>
+																	<option value="1">...</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																</select>
+															</div>
+														</div>
+														<div class="row margin9">
+															<div class="label-cover">
+																<label for="">Возраст детей</label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2">
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-block column other-style">
+													<div class="heading-holder">
+														<h3 class="heading">Данные клиента</h3>
+													</div>
+													<div class="cover-fields">
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta1"><span class="necessarily">Фамилия:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta1" id="">
+																<span class="promt">Заполняется на английском</span>
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Имя:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2">Организация:</label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row margin16">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Электронная почта:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Телефон:</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+														<div class="row">
+															<div class="label-cover">
+																<label for="deta2"><span class="necessarily">Номер паспорта</span></label>
+															</div>
+															<div class="text">
+																<input type="text" id="deta2" id="">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-block margin0 one-column">
+												<div class="heading-holder">
+													<h3 class="heading">Включить в счет</h3>
+												</div>
+												<div class="cover-fields">
+													<div class="row">
+														<div class="label-cover">
+															<label for="">Постельное белье:</label>
+														</div>
+														<div class="text">
+															<select>
+																<option value="1">...</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+																<option value="5">5</option>
+															</select>
+														</div>
+													</div>
+													<div class="row margin19">
+														<div class="label-cover">
+															<span class="label">Проживание <br> домашнего питомца:</span>
+														</div>
+														<div class="text">
+															<select>
+																<option value="1">...</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+																<option value="5">5</option>
+															</select>
+														</div>
+													</div>
+													<div class="row margin16">
+														<div class="label-cover">
+															<span class="label">Информационные услуги:</span>
+														</div>
+														<div class="text">
+															<select>
+																<option value="1">...</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+																<option value="5">5</option>
+															</select>
+														</div>
+													</div>
+													<div class="row textarea-holder margin13">
+														<div class="label-cover">
+															<label for="">Дополнительно:</label>
+														</div>
+														<div class="text">
+															<textarea class="textarea" name="" id="" ></textarea>
+														</div>
+													</div>
+													<ul class="list-checkbox additionally-list">
+														<li class="check-row">
+															<input type="checkbox" id="checkbox-9">
+															<label for="checkbox-9">уборку</label>
+														</li>
+														<li class="check-row">
+															<input type="checkbox" id="checkbox-10">
+															<label  for="checkbox-10">трансфер со станции до коттеджа и обратрно</label>
+														</li>
+														<li class="check-row">
+															<input type="checkbox" id="checkbox-11">
+															<label for="checkbox-11">интеренет</label>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<ul class="list-checkbox agreement-list">
+											<li class="check-row">
+												<input type="checkbox" id="checkbox-11">
+												<label for="checkbox-11"><span class="necessarily right">я прочитал и согласен с условиями бронирования</span></label>
+											</li>
+											<li class="check-row">
+												<input type="checkbox" id="checkbox-12">
+												<label for="checkbox-12"><span class="necessarily right">я прочитал и согласен с условиями аннулирования счета</span></label>
+											</li>
+										</ul>
+										<div class="capture-box">
+											<span class="necessarily right">Введите код с картинки:</span>
+											<div class="visual visual-capture">
+												<img src="img/capture.png" alt="capture">
+											</div>
+											<input type="text">
+										</div>
+										<div class="btn-cover other-style">
+											<input class="btn" type="submit" value="Забронировать">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h3 class="heading">Фотографии туристов</h3>
+								</div>
+								<div class="photo-tourists">
+									<ul>
+										<li class="visual"><img src="img/img-12.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-13.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-14.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-15.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-16.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-17.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-18.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-19.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-20.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-16.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-17.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-18.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-19.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-11.jpg" alt=""></li>
+										<li class="visual"><img src="img/img-20.jpg" alt=""></li>
+									</ul>
+								</div>
+								<div class="btn-holder">
+									<div class="btn-cover">
+										<a href="#" class="btn add-photo btn-link other-style">добавить фотографии</a>
+									</div>
+								</div>
+							</div>
+							<div class="item-cottage">
+								<div class="heading-holder">
+									<h3 class="heading">Отзывы туристов</h3>
+								</div>
+								<ul class="reviews-tourist">
+									<li>
+										<strong class="title">Сергей Иванович, 11.05.2012</strong>
+										<p>Креатив методически притягивает нестандартный подход, повышая конкуренцию. Оценка эффективности кампании изоморфна времени. В соответствии с законом Ципфа, медиавес традиционно порождает из ряда вон выходящий социальный статус, признавая определенные рыночные тенденции. Рекламная акция искажает стратегический маркетинг, учитывая современные тенденции. Еще Траут показал, что конвесия покупателя требовальна к креативу. Мониторинг активности без оглядки на авторитеты специфицирует бренд, опираясь на опыт западных коллег.</p>
+									</li>
+									<li>
+										<strong class="title">Петр, 10.04.2012</strong>
+										<p>Концепция новой стратегии, отбрасывая подробности, детерминирует эксклюзивный принцип восприятия, опираясь на опыт западных коллег.</p>
+									</li>
+									<li>
+										<strong class="title">Ирина Михайловна, 01.04.2012</strong>
+										<p>Все супер!!!</p>
+									</li>
+									<li>
+										<strong class="title">Роман, 01.03.2012</strong>
+										<p>Продвижение проекта, не меняя концепции, изложенной выше, развивает повседневный анализ зарубежного опыта, полагаясь на инсайдерскую информацию. До недавнего времени считалось, что ассортиментная политика предприятия интуитивно ускоряет направленный маркетинг, повышая конкуренцию. Имидж сознательно транслирует инструмент маркетинга, не считаясь с затратами. До недавнего времени считалось, что управление брендом стремительно определяет потребительский рынок, используя опыт предыдущих кампаний. В рамках концепции Акоффа и Стэка.</p>
+									</li>
+								</ul>
+								<div class="btn-cover">
+									<a href="#" class="btn btn-link other-style">Добавить отзыв</a>
+								</div>
+							</div>
+						</div><!-- content-center-frame -->
+					</div><!-- content-center-->
+					<div class="side">
+						<div class="side-heading">
+							<div class="add-remove added">
+								в избранном <a href="#">Удалить</a>
+							</div>
+							<h1 class="main-heading">Коттедж 386</h1>
+						</div>
+						<div class="cottage-description side-box">
+							<p>Уютный коттедж — традиционный сельский дом, предоставляется вместе с Домиком рыбака <a href="#">(385)</a>, расположенном на берегу озера в 1,3 км от коттеджа.</p>
+							<p>Возможен трансфер из г. Коувола, от ж/д вокзала до коттеджа, с заездом в продуктовый магазин (возможны и другие поездки: в бассейн, на горнолыжный склон и т.п.).</p>
+							<p>Подходит для отдыха с детьми.</p>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Расположение
+								</h2>
+							</div>
+							<dl class="description-list">
+								<dt>Провинция:</dt>
+								<dd>Kymenlaakso</dd>
+								<dt>Губерния: </dt>
+								<dd>Etelä-Suomi</dd>
+								<dt>Ближайший город:</dt>
+								<dd>Etelä-Suomi</dd>
+								<dt>Ближайший населенный пункт: </dt>
+								<dd>Toikkala</dd>
+								<dt>Ближайший горнолыжный центр: </dt>
+								<dd>Mielakka</dd>
+								<dt>Координаты</dt>
+								<dd>60.94561°, 26.95090°</dd>
+								<div class="map-link">
+									<a href="#">посмтотреть на карте</a>
+								</div>
+								<dt>Ближайшие коттеджи:</dt>
+								<dd>
+									<a href="#">385,</a>
+									<a href="#">388,</a>
+									<a href="#">486,</a>
+									<a href="#">551,</a>
+									<a href="#">589,</a>
+									<a href="#">590,</a>
+									<a href="#">594,</a>
+									<a href="#">741.</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Основные данные котоджа
+								</h2>
+							</div>
+							<dl class="description-list">
+								<dt>Спальных комнат:</dt>
+								<dd> 5</dd>
+								<dt>Этажей: </dt>
+								<dd>2</dd>
+								<dt>Мест основных:</dt>
+								<dd>10</dd>
+								<dt>Мест дополнительных:  </dt>
+								<dd>1</dd>
+								<dt>Общее количество мест: </dt>
+								<dd>11</dd>
+								<dt>Общая площадь: </dt>
+								<dd>250 м²</dd>
+								<dt>Отапливаемая площадь: </dt>
+								<dd>250 м²</dd>
+								<dt>Гостиная</dt>
+								<dd> </dd>
+								<dt>Материал дома:</dt>
+								<dd>дерево</dd>
+								<dt>Год постройки:</dt>
+								<dd>1950 г.</dd>
+								<dt>Возможно зимнее проживание</dt>
+								<dd> </dd>
+							</dl>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Расстояния
+								</h2>
+							</div>
+							<dl class="description-list">
+								<dt>До города:</dt>
+								<dd>17 км</dd>
+								<dt>До озера:</dt>
+								<dd>1,3 км</dd>
+								<dt>До магазина:</dt>
+								<dd>1,3 км</dd>
+								<dt>До ресторана:</dt>
+								<dd>1,3 км</dd>
+								<dt>До ближайшего соседа:</dt>
+								<dd>0,8 км</dd>
+								<dt>До ж/д станции:</dt>
+								<dd>17 км</dd>
+								<dt>До горнолыжного склона:</dt>
+								<dd>20 км</dd>
+								<dt>До горнолыжного склона:</dt>
+								<dd>0,1 км</dd>
+								<dt>До водных развлечений:</dt>
+								<dd>7 км</dd>
+								<dt>До аттракционов:</dt>
+								<dd>20 км</dd>
+								<dt>До границы Vaalimaa (Торфяновка):</dt>
+								<dd>102 км</dd>
+								<dt>До границы Nujamaa (Брусничное):</dt>
+								<dd>102 км</dd>
+								<dt>До границы Imatra (Светогорск): </dt>
+								<dd>121 км</dd>
+							</dl>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Расстояния
+								</h2>
+							</div>
+							<p>Туалетов в доме:  1, туалет на улице:  1</p>
+							<p>Сауна дровяная в доме</p>
+							<p>Душ, помывочная, электричество, отопление, питьевая вода, камин, холодильник, электроплита, микроволновая печь, посудомойка, кофеварка, посуда, стиральная машина, пылесос, телевизор (2), наличие интернет связи.</p>
+							<p>Постельное белье предоставляется за отдельную плату.</p>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Развлечения
+								</h2>
+							</div>
+							<p>Рыбалка, охота, сбор ягод, сбор грибов, походы на природу, плавание, гольф, катание на беговых лыжах, катание на горных лыжах, катание на лошадях, катание на велосипедах, катание на лодках, детские аттракционы, теннис.</p>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Дополнительные услуги
+								</h2>
+							</div>
+							<dl class="description-list">
+								<dt>Трансфер от станции до коттеджа и обратно:</dt>
+								<dd>60€</dd>
+								<dt>Финальная уборка: </dt>
+								<dd>80€</dd>
+								<dt>Интернет (€/в неделю):</dt>
+								<dd>1€/vk</dd>
+								<dt>Постельное белье (за комплект):</dt>
+								<dd>10€/kpl</dd>
+								<dt>Домашние питомцы:  </dt>
+								<dd>20-50€/kpl</dd>
+							</dl>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Языки облуживания
+								</h2>
+							</div>
+							<ul class="lng-box">
+								<li>
+									<div class="visual">
+										<img src="img/flag-big-01.png" alt="">
+									</div>
+								</li>
+								<li>
+									<div class="visual">
+										<img src="img/flag-big-02.png" alt="">
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="side-box">
+							<div class="heading-holder">
+								<h2 class="heading">
+									Скидки
+								</h2>
+							</div>
+							<dl class="description-list">
+								<dt>Скидка при менее чем 50% заселении:</dt>
+								<dd>до 30%</dd>
+							</dl>
+						</div>
+					</div><!-- side -->
+				</div><!-- twocolumns -->
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="container">
+				<ul class="counter-list">
+					<li>
+						<a href="#"><img src="img/counter-img-01.png" alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/counter-img-02.png" alt=""></a>
+					</li>
+				</ul>
+				<em class="copyright">
+					<a href="#">&copy; Kallista.ru, 2010 - 2012 <br> Privacy Policy</a>
+				</em>
+			</div>
+		</footer><!-- footer end -->
+	</div>
+	<div class="popup-holder" id="photo-popup">
+		<div class="bg">&nbsp;</div>
+		<div class="popup">
+			<div class="close-popup">X</div>
+			<div class="heading-popup">
+				<h4>добавление фотографии</h4>
+			</div>
+			<form action="#">
+				<fieldset>
+					<p>Вы можете загрузить не более пяти фотографий.</p>
+					<div class="cover-fields">
+						<div class="row">
+							<div class="label-cover">
+								<label for="deta1"><span class="necessarily">Путь к файлу:</span></label>
+							</div>
+							<div class="text">
+								<label class="upload-cover">
+									<span class="btn-upload">обзор</span>
+									<span class="upload-field"></span>
+									<input type="file">
+								</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="label-cover">
+								<label for=""><span>Тематика:</span></label>
+							</div>
+							<div class="text">
+								<select>
+									<option value="1">...</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+						</div>
+						<div class="row textarea-holder">
+							<div class="label-cover">
+								<label for="">Комментарий</label>
+							</div>
+							<div class="text">
+								<textarea class="textarea" name="" id="" ></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="capture-box">
+						<span class="necessarily right">Введите код с картинки:</span>
+						<div class="visual visual-capture">
+							<img src="img/capture.png" alt="capture">
+						</div>
+						<input type="text">
+					</div>
+					<div class="btn-cover other-style">
+						<input class="btn" type="submit" value="Загрузить">
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
