@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	margin: 0;
+	color: #000;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+	background: #fff;
+	min-width: 320px;
+	height: 100%;
+}
+
+img {
+	border-style: none;
+}
+
+a {
+	color: #000;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+* {
+	outline: none;
+	box-sizing: border-box;
+}
+
+input, textarea, select {
+	font: 100% Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+#wrapper {
+	width: 960px;
+	overflow: hidden;
+	margin: 40px auto;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.list:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.list-item {
+	width: 30%;
+	height: 250px;
+	display: inline-block;
+	border: 1px solid red;
+	margin: 0 0 30px 0;
+}
+

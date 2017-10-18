@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		 url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'MyriadProLight';
+	src: url('../fonts/MyriadProLight.eot');
+	src: url('../fonts/MyriadProLight.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadProLight.woff') format('truetype'),
+		 url('../fonts/MyriadProLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('../fonts/MyriadPro-Bold.eot');
+	src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadPro-Bold.woff') format('woff'),
+		 url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'MyriadProSemibold';
+	src: url('../fonts/MyriadProSemibold.eot');
+	src: url('../fonts/MyriadProSemibold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadProSemibold.woff') format('woff'),
+		 url('../fonts/MyriadProSemibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'CenturyGothicRegular';
+	src: url('../fonts/CenturyGothicRegular.eot');
+	src: url('../fonts/CenturyGothicRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/CenturyGothicRegular.woff') format('woff'),
+		 url('../fonts/CenturyGothicRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+

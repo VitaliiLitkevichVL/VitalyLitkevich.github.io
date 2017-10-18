@@ -1,0 +1,402 @@
+body{
+	margin:0;
+	color:#fff;
+	font:14px/19px Arial, Helvetica, sans-serif;
+	background:#676e71;
+	min-width:1000px;
+	height:100%;
+}
+a{text-decoration:underline;
+	outline:none;}
+a:hover{
+	text-decoration:none;
+}
+#wrapper{
+	margin:0 auto;
+}
+.center{
+	width:915px;
+	margin:0 auto;
+}
+.center:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+.logo{
+	width:199px;
+	height:158px;
+	float:left;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/logo.png) no-repeat top right;
+	margin:30px 67px 0 15px;
+	cursor:pointer;
+}
+.logo a{
+	display:block;
+	height:100%;
+}
+.nav-container{
+	width:340px;
+	float:left;
+	margin:90px 0 0 0;
+}
+.nav-firstcolumn,.nav-secondcolumn{
+	list-style:none;
+	float:left;
+	width:170px;
+	padding:0;
+	margin:0;
+}
+.nav-secondcolumn{
+	float:right;
+}
+.nav-container ul li a{
+	color:#fff;
+	text-transform:uppercase;
+	font:12px/12px Tahoma,Arial, Helvetica, sans-serif;
+}
+.contacts{
+	margin:60px 30px 0 0;
+	float:right;
+	font:14px/14px Candara, Arial, Helvetica, sans-serif;
+}
+.phone{
+	font:27px/27px Candara, Arial, Helvetica, sans-serif;
+	margin:0 0 10px 0;
+	display:block;
+}
+.address{
+	padding:0 0 0 30px;
+}
+.address p{
+	margin:0;
+}
+.address a{
+	color:#e3ff28;
+}
+.slider-box{
+	height:320px;
+	background:#a0c124;
+	padding:5px 0 0 0;
+	box-sizing:border-box;
+}
+.slider-ds{
+	float:left;
+	width:250px;
+	padding:50px 0 0 0;
+	font:20px/20px Calibri, Arial, Helvetica, sans-serif;
+}
+.slider-ds p{
+	margin:0 0 10px 0;
+}
+.slider{
+	float:right;
+	position:relative;
+	width:630px;
+}
+.bx-prev,.bx-next{
+	background:url(../images/slider-prev.png) no-repeat;
+	width:47px;
+	height:47px;
+	text-indent:-9999px;
+	position:absolute;
+	overflow:hidden;
+	top:50%;
+	left:13px;
+	margin:-15px 0 0 0;
+}
+.bx-next{
+	background:url(../images/slider-next.png) no-repeat;
+	right:13px;
+	left:auto;
+}
+.slider ul{
+	margin:0;
+	padding:0;
+	position:relative;
+	list-style:none;
+	height:310px;
+}
+.slider ul li{
+	width:630px;
+	height:310px;
+	padding:0;
+	top:0;
+	left:0;
+	position:absolute;
+}
+.bottom-panel{
+	background: linear-gradient(to bottom ,#5d676b 0%,#707475 20px, #586468); 
+	padding:40px 0 20px; 0;
+}
+.panel{
+	margin:0 0 50px 0;
+}
+.panel:after{
+	clear:both;
+	display:block;
+	content:'';
+}
+.bottom-panel-menu{
+	float:left;
+}
+.column{
+	float:left;
+	margin: 0 25px 0 0;
+	width: 135px;
+}
+.column h2{
+	margin:0 0 25px 0;
+	font:25px/25px Calibri, Arial, Helvetica, sans-serif
+}
+.column ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.column ul li a{
+	color:#fff;
+	font:12px/17px Arial, Helvetica, sans-serif;
+}
+.img-box{
+	height:38px;
+	margin:0 0 10px 0;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+.form-box{
+	font:12px/14px Arial, Helvetica, sans-serif;
+	float:right;
+	width:210px;
+	padding:20px 10px 0 0;
+}
+.select-box h4{
+	margin:0 0 10px 0;
+	font:bold 12px/12px Arial, Helvetica, sans-serif;
+}
+.select-box{
+	margin:0 0 20px 0;
+}
+.select1{
+	margin:0 0 15px 0;
+}
+.form-box p{
+	margin:0 0 15px 0;
+}
+.button{
+	width:112px;
+	height:27px;
+	font:15px/15px Arial, Helvetica, sans-serif;
+	padding:0 0 0 25px;
+	color:#fff;
+	text-align:left;
+	box-sizing:border-box;
+	background:#8fae1b;
+	border-style:none;
+	border-radius:3px;
+	border-bottom:1px solid #788d36;
+	cursor:pointer;
+}
+.btn-cover{
+	margin:0 0 0 5px;
+}
+.copyright{
+	display:block;
+	font-style:normal;
+	font:12px/12px Tahoma, Arial, Helvetica, sans-serif
+}
+.header-inside:after{
+	clear:both;
+	display:block;
+	content:'';
+}
+.header-inside{
+	margin:0 0 40px 0;
+}
+.about-us-box{
+	padding:0 180px 0 90px;
+	overflow:hidden;
+}
+.about-us-nav{
+	list-style:none;
+	margin:0 0 15px 0;
+	padding:0;
+}
+.about-us-box ul li{
+	display:inline-block;
+	margin:0 10px 0 0;
+}
+.about-us-box ul li a{
+	font:14px/14px Arial, Helvetica, sans-serif;
+	color:#c1e92a;
+}
+.about-us-box h1{
+	color:#c0e82a;
+	font:34px/34px Arial, Helvetica, sans-serif;
+	margin:0 0 20px 0;
+}
+.about-us-box p{
+	margin:0 0 10px 0;
+}
+.bottom-panel-2{
+	background: linear-gradient(to top ,#899b95, #e0f2e9);
+	color:#353535;
+}
+.bottom-panel-menu-2 .column ul li a{
+	color:#353535;
+}
+.bottom-panel-menu-2{
+	width:643px;
+	float:right;
+}
+.logo-bottom{
+	display:block;
+	width:113px;
+	height:87px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/logo-bottom.png) no-repeat;
+	cursor:pointer;
+	margin:0 0 30px 0;
+}
+.logo-bottom a{
+	display:block;
+	height:100%;
+}
+.info-inside{
+	width:180px;
+	float:left;
+}
+.info-inside .contacts{
+	margin:0;
+	float:none;
+}
+.info-inside .phone{
+	font-size:19px;
+	margin:0 0 10px 0;
+	display:block;
+}
+.info-inside .address{
+	font-size:11px;
+}
+.info-inside .address p{
+	margin:0;
+}
+.info-inside .address a{
+	color:#0071db;
+}
+.top{
+	background: linear-gradient(to top,#586468,#707475 25px, #586468);
+	padding:0 0 90px 0;
+}
+.catalog-list h3{
+	margin:0 0 35px 0;
+	color:#c0e82a;
+	font:33px/33px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.header-catalog{
+	margin:0 0 60px 0;
+}
+.list-item{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.item{
+	margin:0 0 60px 0;
+	
+}
+.header-catalog:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.img-container{
+	width:180px;
+	height:107px;
+	overflow:hidden;
+	border:3px solid #5bf5c8;
+	border-radius:5px;
+	float:left;
+	margin:5px 47px 0 0;
+}
+.description-box{
+	overflow:hidden;
+	padding: 0 45px 0 0;
+}
+.description-box h4 a{
+	color:#5bf5c8;
+	font:25px/25px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.description-box h4{
+	margin:0 0 17px 0;
+
+}
+.description-box p{
+	font:15px/15px Tahoma, Arial, Helvetica, sans-serif;
+	margin:0 0 12px 0;
+}
+.ds-list{
+	font:11px/16px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#cdcdcd;
+	margin:0;
+}
+.ds-list dt{
+	width:100px;
+	float:left;
+}
+.ds-list dd{
+	overflow:hidden;
+	margin:0;
+}
+.ds-list dd a{
+	color:#cdcdcd;
+	margin:0 10px 0 0;
+}
+.item:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.numbering{
+	color:#5bf5c8;
+	font:25px/25px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	float:left;
+	margin:0 15px 0 0;
+}
+.list-item li:last-child{
+	margin:0;
+}
+.products-box h3{
+	margin:0 0 10px 0;
+	color:#c0e82a;
+	font:33px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.products:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.products-img{
+	float:right;
+}
+.ds-list-products{
+	margin:0 0 65px 0;
+}
+.description-box-products{
+	width:500px;
+}
+.top-products{
+	padding-bottom:30px;
+}
+.description-box-products p{
+	margin:0;
+}
+.top-home{
+	padding:0 0 20px 0;
+}
