@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage', '8thpage'],
 		menu: '#nav ul',
-		navigation:true,
+		navigation: true,
 		paddingTop: '100px',
 		onLeave: function(index, nextIndex, direction){
 			var sectionMain = $('#section3'),
