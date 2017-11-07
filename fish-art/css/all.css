@@ -1,7 +1,7 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	width: 100%;
+	width: 
 	height: 100%;
 }
 
@@ -958,6 +958,15 @@ textarea
 #fp-nav.fourth-group .nav0,
 #fp-nav.fourth-group .nav1 {
 	display: none;
+}
+
+.menu-collapser {
+	background: none;
+	width: 40px;
+	height: 28px;
+	float: right;
+	margin: 0 40px 0 0;
+	padding: 0;
 }
 
 /*————————————— skroll-nav end —————————————*/
