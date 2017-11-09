@@ -1,0 +1,11 @@
+@media screen and (max-width:1120px) {
+	.portfolio-list-item {
+		width: 45%;
+		margin:  0 5% 5% 0;
+	}
+
+	.portfolio-list {
+		margin: 0 -5% -5% 0;
+	}
+
+}
