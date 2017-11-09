@@ -284,8 +284,8 @@ ul {
 	transition: width .3s ease-in-out;
 }
 
-.page-nava:hover:after,
-.page-nava:focus:after {
+.page-nav a:hover:after,
+.page-nav a:focus:after {
 	width: 100%;
 }
 
