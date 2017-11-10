@@ -51,12 +51,21 @@ ul {
 	list-style: none;
 }
 
-#wrapper {
+.wrapper {
 	padding-left: 230px;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 	min-height: 100%;
+	transition: all 1s ease;
+}
+
+.wrapper.all-width {
+	padding-left: 0;
+}
+
+.wrapper.all-width .container {
+	padding: 0 10%;
 }
 
 .heading-box {
@@ -126,16 +135,35 @@ ul {
 }
 
 .info-box {
+	z-index: 100;
 	left: 0;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	bottom: 0;
 	float: left;
-	width: 230px;
-	min-height: 500px;
+	width: 245px;
 	background-color: #141414;
-	border-radius: 5px;
-	font-family: 'Open Sans'
+	font-family: 'Open Sans';
+	transition: all 1s ease;
+}
+
+
+.info-box .btn {
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: -43px;
+	width: 36px;
+	height: 36px;
+	background: url(../img/bg-btn-02.png) no-repeat;
+}
+
+.info-box.closed {
+	left: -245px;
+}
+
+.info-box.closed  .btn{
+	background: url(../img/bg-btn-01.png) no-repeat;
 }
 
 
@@ -407,6 +435,10 @@ ul {
 	height: 100%;
 	max-height: auto;
 	max-width: auto;
+}
+
+.mCSB_inside > .mCSB_container {
+	margin-right: 15px;
 }
 
 

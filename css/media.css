@@ -1,4 +1,10 @@
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1200px) {
+	.container {
+		padding: 0 8%;
+	}
+}
+
+@media screen and (max-width:1060px) {
 	.portfolio-list-item {
 		width: 45%;
 		margin:  0 5% 5% 0;
@@ -7,5 +13,33 @@
 	.portfolio-list {
 		margin: 0 -5% -5% 0;
 	}
-
 }
+
+@media screen and (max-width:756px) {
+	.portfolio-list-item {
+		width: 80%;
+		margin: 0 auto 5% auto;
+		float: none;
+	}
+
+	.portfolio-list {
+		margin: 0
+	}
+
+	.wrapper {
+		padding: 0 !important; 
+	}
+
+	.wrapper .container {
+		padding: 0 10% !important;;
+	}
+}
+
+@media screen and (max-width:420px) {
+	.portfolio-list-item {
+		width: 100%;
+	}
+}
+
+
+
