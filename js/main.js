@@ -9,9 +9,11 @@ $(document).ready(function() {
 		  theme:"dark",
 	});
 	window.onresize = setHeight;
+	window.orientationchange = setHeight;
 });
 
 	function setHeight() {
 		$('.mCustomScrollbar').height($(window).height()); 
 		$('.portfolio-list-item').height($('.portfolio-list-item').width()-20 + 'px');
 	}
+
