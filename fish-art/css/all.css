@@ -969,4 +969,10 @@ textarea
 	padding: 0;
 }
 
+#map {
+	background: url(../img/map.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 /*————————————— skroll-nav end —————————————*/
