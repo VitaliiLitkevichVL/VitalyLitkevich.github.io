@@ -22,7 +22,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 		top = $(id).offset().top-$('.header').innerHeight();
-		$('body,html').animate({scrollTop: top}, 1300);
+		$('body,html').animate({scrollTop: top}, 1100);
 		onScroll();
 	});
 
@@ -30,14 +30,19 @@ $(document).ready(function() {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 		top = $(id).offset().top-$('.header').innerHeight();
-		$('body,html').animate({scrollTop: top}, 1300);
+		$('body,html').animate({scrollTop: top}, 1100);
 		onScroll();
 	});
 
 	$(document).on("scroll", onScroll);
 	caruselInit();
-});
 
+	$('.slider-carusel').flickity({
+		cellAlign: 'left',
+		contain: true,
+		autoPlay: 3500
+	});
+});
 
 function onScroll(){
 	var scroll_top = $(document).scrollTop();
